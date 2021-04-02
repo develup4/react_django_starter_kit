@@ -550,6 +550,10 @@ video {
   height: auto;
 }
 
+.font-helvetica {
+  font-family: ‘Helvetica’;
+}
+
 .container {
   width: 100%;
 }
