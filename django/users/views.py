@@ -21,7 +21,7 @@ class UsersViewSet(ModelViewSet):
     def get_permissions(self):
 
         if self.action == "list":
-            permission_classes = [IsAdminUser]
+            permission_classes = [AllowAny]  # [IsAdminUser]
         elif (
             self.action == "create"
             or self.action == "retrieve"

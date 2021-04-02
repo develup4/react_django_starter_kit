@@ -5,7 +5,7 @@ import Header from 'src/common/components/header';
 import Home from 'src/routes/home';
 import Footer from 'src/common/components/footer';
 
-axios.defaults.baseURL = 'TODO: Input server url';
+axios.defaults.baseURL = 'http://127.0.0.1:8000/';
 axios.defaults.headers.common['Authorization'] = `Bearer ${localStorage.getItem(
   'token',
 )}`;
