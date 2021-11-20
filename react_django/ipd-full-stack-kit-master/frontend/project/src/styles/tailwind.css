@@ -1,0 +1,8 @@
+@tailwind base;
+
+.font-helvetica {
+  font-family: ‘Helvetica’;
+}
+
+@tailwind components;
+@tailwind utilities;
