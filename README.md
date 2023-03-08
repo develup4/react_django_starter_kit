@@ -9,11 +9,14 @@ $ git clone https://github.com/develup4/react_django_starter_kit.git
 ```
 
 ## 사용 기술
+### Frontend
 - React
 - Javascript
 - Recoil
 - React-Query
 - Tailwind CSS
+
+### Backend
 - Django
 - Django REST Fremework
 - Python
